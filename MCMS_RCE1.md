@@ -1,5 +1,5 @@
-在前台登录处存在命令执行漏洞
-可以通过rand_code参数进行代码执行
+There is a command execution vulnerability in the front-end login
+Can be achieved through rand_ Code parameter for code execution
 
 
 ```
